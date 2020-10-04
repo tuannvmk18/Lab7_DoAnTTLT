@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width=" match_parent "
+        android:layout_height=" match_parent "
+        android:background="#99FFCC">
+
+        <TextView
+            android:id="@+id/TxtCauhoi"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroupTraloi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TxtCauhoi"
+            android:layout_marginTop="38dp"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/RdbA"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="A. "
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/RdbB"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="B. "
+                android:textSize="25dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/RdbC"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="C. "
+                android:textSize="25dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/RdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="D. "
+                android:textSize="25dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/BtnTraloi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RadioGroupTraloi"
+            android:layout_centerHorizontal="true"
+            android:text="Trả lời"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/TxtKetqua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnTraloi"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

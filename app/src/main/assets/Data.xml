@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Questionare>
+    <Item>
+        <ID>1</ID>
+        <Question>We have two ..... We see with them.</Question>
+        <AnswerA>eyes</AnswerA>
+        <AnswerB>legs</AnswerB>
+        <AnswerC>hands</AnswerC>
+        <AnswerD>ears</AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>2</ID>
+        <Question>There ..... many books on the table.</Question>
+        <AnswerA>is</AnswerA>
+        <AnswerB>have</AnswerB>
+        <AnswerC>are</AnswerC>
+        <AnswerD>has</AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>3</ID>
+        <Question>They go.... on Sundays</Question>
+        <AnswerA>shopping</AnswerA>
+        <AnswerB>to shop</AnswerB>
+        <AnswerC>for shopping</AnswerC>
+        <AnswerD>to make shopping</AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>4</ID>
+        <Question>I am afraid ... studying English</Question>
+        <AnswerA>to</AnswerA>
+        <AnswerB>of</AnswerB>
+        <AnswerC>for</AnswerC>
+        <AnswerD>with</AnswerD>
+        <Answer>B</Answer>
+    </Item>
+    <Item>
+        <ID>5</ID>
+        <Question>It is verry important for you... get well</Question>
+        <AnswerA>for</AnswerA>
+        <AnswerB>with</AnswerB>
+        <AnswerC>in</AnswerC>
+        <AnswerD>to</AnswerD>
+        <Answer>D</Answer>
+    </Item>
+    <Item>
+        <ID>6</ID>
+        <Question>The weather is ....</Question>
+        <AnswerA>wet</AnswerA>
+        <AnswerB>heavy</AnswerB>
+        <AnswerC>heard</AnswerC>
+        <AnswerD>fat</AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>7</ID>
+        <Question>I am on my.... to the airport.</Question>
+        <AnswerA>book</AnswerA>
+        <AnswerB>street</AnswerB>
+        <AnswerC>way</AnswerC>
+        <AnswerD>tree</AnswerD>
+        <Answer>money</Answer>
+    </Item>
+    <Item>
+        <ID>8</ID>
+        <Question>I like.......... so much.</Question>
+        <AnswerA>go shopping</AnswerA>
+        <AnswerB>shopping</AnswerB>
+        <AnswerC>shop</AnswerC>
+        <AnswerD>shopping to</AnswerD>
+        <Answer>B</Answer>
+    </Item>
+</Questionare>
