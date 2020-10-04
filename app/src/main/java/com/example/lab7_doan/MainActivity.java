@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
         C = (RadioButton) findViewById(R.id.RdbC);
         D = (RadioButton) findViewById(R.id.RdbD);
 
+        ReadData();
+
         BT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -101,17 +103,17 @@ public class MainActivity extends AppCompatActivity {
         try {
             DocumentBuilderFactory DBF = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = DBF.newDocumentBuilder();
-            InputStream in = getAssets().open("data.xml");
+            InputStream in = getAssets().open("Data.xml");
             Document doc = builder.parse(in);
             Element root = doc.getDocumentElement();
             NodeList list = root.getChildNodes();
-            for (int i = 0; i < list.getLength(); i++) {
 
+            for (int i = 0; i < list.getLength(); i++) {
 
                 Node node = list.item(i);
 
                 if (node instanceof Element) {
-                    Element Item = (Element) node;// lấy được tag Item
+                    Element Item = (Element) node;
                     NodeList listChild = Item.getElementsByTagName("ID");
                     String ID = listChild.item(0).getTextContent();
                     listChild = Item.getElementsByTagName("Question");
